@@ -10,7 +10,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 5px;
-  background-color: #f5f5f5;
+  background-color: #ace6d4;
   color: #02162a;
   font-size: 20px;
   font-weight: bold;
@@ -79,4 +79,52 @@ nav ul {
 
 .characters-info {
   max-width: 180px;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  padding: 70px;
+  background-color: #ace6d4;
+  color: #02162a;
+}
+
+.quote {
+  max-width: 500px;
+}
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #ace6d4;
+}
+
+.sign-up-card {
+  display: block;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #02162a;
+  color: #ace6d4;
+}
+
+.sign-up-button {
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ace6d4;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #02162a;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
 }
